@@ -30,25 +30,25 @@ This folder includes implementations of traditional cipher techniques:
 - **Vigenere Cipher**: A polyalphabetic substitution cipher that uses a keyword to encrypt the message.
 - **Playfair Cipher**: A digraph cipher that encrypts pairs of letters using a 5x5 grid.
 
-### 2. **Symmetric Ciphers**
+### 2. **Symmetric Ciphers** 🔑
 Symmetric key algorithms use the same key for both encryption and decryption:
 - **DES (Data Encryption Standard)**: A widely used symmetric-key block cipher for encrypting data.
 
-### 3. **Asymmetric Ciphers**
+### 3. **Asymmetric Ciphers** 🔓
 Asymmetric encryption uses a public key for encryption and a private key for decryption:
 - **RSA**: A widely used asymmetric encryption algorithm based on the mathematical properties of prime numbers.
 - **Diffie-Hellman Key Exchange**: A method of securely exchanging cryptographic keys over a public channel.
 
-### 4. **Hashing**
+### 4. **Hashing** 🧮
 These files implement cryptographic hash functions, which are used to ensure data integrity:
 - **MD5**: A widely known hashing algorithm, although considered weak due to vulnerabilities.
 - **SHA-256**: A part of the SHA-2 family of cryptographic hash functions, more secure than MD5.
 
-### 5. **Attacks**
+### 5. **Attacks** ⚔️
 This folder contains scripts that demonstrate cryptanalysis techniques:
 - **BruteForce-Caesar**: A simple brute-force attack to decrypt Caesar cipher-encrypted text.
 
-## Requirements
+## Requirements 📋
 
 To run the Python implementations in this repository, you need the following libraries:
 - Python 3.x
@@ -59,12 +59,12 @@ To run the Python implementations in this repository, you need the following lib
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/Information-Security.git
+    git clone https://github.com/kinzafatim/Information-Security.git
     ```
 
 2. Follow the script's prompts or check the comments in the code for instructions on how to input data and get results.
 
-## Contributing
+## Contributing 🤝
 
 Feel free to fork the repository and submit pull requests if you wish to contribute improvements or additions, such as additional ciphers, cryptographic algorithms, or attacks.
 
